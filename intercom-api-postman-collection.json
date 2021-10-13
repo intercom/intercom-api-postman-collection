@@ -449,7 +449,7 @@
           "response": []
         },
         {
-          "name": "Retrieve a company",
+          "name": "Delete a company",
           "request": {
             "url": "https://api.intercom.io/companies/<id>",
             "method": "DELETE",
