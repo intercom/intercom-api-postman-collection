@@ -1639,7 +1639,7 @@
         {
           "name": "Retrieve an admin",
           "request": {
-            "url": "https://api.intercom.io/admins/493881",
+            "url": "https://api.intercom.io/admins/<id>",
             "method": "GET",
             "header": [
               {
@@ -1660,7 +1660,7 @@
         {
           "name": "Set away an admin",
           "request": {
-            "url": "https://api.intercom.io/admins/814860/away",
+            "url": "https://api.intercom.io/admins/<id>/away",
             "method": "PUT",
             "header": [
               {
