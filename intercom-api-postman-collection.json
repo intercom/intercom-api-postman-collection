@@ -55,13 +55,13 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
             "description": "",
             "body": {
-              "mode": "raw",
+              "mode": "json",
               "raw": "\n{\n\t\"role\": \"user\",\n\t\"external_id\": \"25\",\n\t\"email\": \"wash@serenity.io\",\n\t\"phone\": \"+1123456789\",\n\t\"name\": \"Hoban Washburn\",\n\t\"avatar\": \"https://example.org/128Wash.jpg\",\n\t\"last_seen_at\": 1571069751,\n\t\"signed_up_at\": 1571069751,\n\t\"owner_id\": 127,\n\t\"unsubscribed_from_emails\": false,\n\t\"custom_attributes\": {\n\t\t\"paid_subscriber\": true,\n\t\t\"monthly_spend\": 155.5,\n\t\t\"team_mates\": 1\n\t}\n}\n"
             }
           },
