@@ -55,7 +55,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -106,7 +106,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -157,7 +157,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -187,7 +187,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -449,7 +449,7 @@
           "response": []
         },
         {
-          "name": "Retrieve a company",
+          "name": "Delete a company",
           "request": {
             "url": "https://api.intercom.io/companies/<id>",
             "method": "DELETE",
@@ -487,7 +487,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -843,7 +843,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -873,7 +873,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -933,7 +933,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -1041,7 +1041,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "application/json",
                 "description": ""
               }
             ],
@@ -1639,7 +1639,7 @@
         {
           "name": "Retrieve an admin",
           "request": {
-            "url": "https://api.intercom.io/admins/493881",
+            "url": "https://api.intercom.io/admins/<id>",
             "method": "GET",
             "header": [
               {
@@ -1660,7 +1660,7 @@
         {
           "name": "Set away an admin",
           "request": {
-            "url": "https://api.intercom.io/admins/814860/away",
+            "url": "https://api.intercom.io/admins/<id>/away",
             "method": "PUT",
             "header": [
               {
